@@ -1,8 +1,8 @@
 # Crear una matriz 3x3 con valores numéricos
 matriz = [
-    [4, 2, 7],
+    [5, 2, 7],
     [9, 5, 1],
-    [3, 8, 6]
+    [3, 8, 4]
 ]
 
 def buscar_valor(matriz, valor_a_buscar):
@@ -13,7 +13,7 @@ def buscar_valor(matriz, valor_a_buscar):
     return f"Valor {valor_a_buscar} no encontrado en la matriz"
 
 # Definir el valor a buscar
-valor = 3
+valor = 7
 
 # Realizar la búsqueda
 resultado = buscar_valor(matriz, valor)
