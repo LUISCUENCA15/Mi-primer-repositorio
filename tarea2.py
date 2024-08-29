@@ -4,7 +4,6 @@ matriz_ordenacion = [
     [6, 5, 4],
     [1, 8, 7]
 ]
-
 # Función de Bubble Sort
 def bubble_sort(fila):
     n = len(fila)

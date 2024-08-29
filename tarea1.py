@@ -1,23 +1,20 @@
-#matriz busqueda en arreglo multidimencional
+# Crear una matriz 3x3 con valores numéricos
 matriz = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
+    [4, 2, 7],
+    [9, 5, 1],
+    [3, 8, 6]
 ]
-# Función para buscar un valor en la matriz
-def buscar_en_matriz(matriz, valor_buscado):
+
+def buscar_valor(matriz, valor_a_buscar):
     for i in range(len(matriz)):
         for j in range(len(matriz[i])):
-            if matriz[i][j] == valor_buscado:
-                return (i, j)
-    return None
+            if matriz[i][j] == valor_a_buscar:
+                return f"Valor {valor_a_buscar} encontrado en la posición ({i}, {j})"
+    return f"Valor {valor_a_buscar} no encontrado en la matriz"
 
-# Valor a buscar
-valor_a_buscar = 7
-posicion = buscar_en_matriz(matriz, valor_a_buscar)
+# Definir el valor a buscar
+valor = 3
 
-# Mostrar resultado de la búsqueda
-if posicion:
-    print(f'Valor {valor_a_buscar} encontrado en la posición: {posicion}')
-else:
-    print(f'Valor {valor_a_buscar} no encontrado en la matriz.')
+# Realizar la búsqueda
+resultado = buscar_valor(matriz, valor)
+print(resultado)
