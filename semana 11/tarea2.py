@@ -1,8 +1,8 @@
 #matriz ordenacion de arreglo multidimencional
 matriz_ordenacion = [
-    [9, 2, 3],
+    [9, 7, 3],
     [6, 5, 4],
-    [1, 8, 7]
+    [1, 8, 2]
 ]
 # Función de Bubble Sort
 def bubble_sort(fila):
