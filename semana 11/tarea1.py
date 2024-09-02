@@ -1,6 +1,6 @@
 # Crear una matriz 3x3 con valores numéricos
 matriz = [
-    [5, 2, 7],
+    [6, 2, 7],
     [9, 5, 1],
     [3, 8, 4]
 ]
