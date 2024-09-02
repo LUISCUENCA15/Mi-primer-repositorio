@@ -10,7 +10,7 @@ import random
 ciudades = ["Ciudad de Arenillas", "Ciudad de Guayaquil", "Ciudad de Manta"]
 
 # Crear la matriz 3D
-temperaturas = [[[random.randint(17, 35) for _ in range(num_dias)] for _ in range(num_semanas)] for _ in range(num_ciudades)]
+temperaturas = [[[random.randint(16, 35) for _ in range(num_dias)] for _ in range(num_semanas)] for _ in range(num_ciudades)]
 
 # Calcular y mostrar el promedio de temperaturas para cada ciudad y semana
 for ciudad in range(num_ciudades):
