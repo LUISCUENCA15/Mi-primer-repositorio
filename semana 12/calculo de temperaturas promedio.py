@@ -1,5 +1,4 @@
 import random
-
 # Definir dimensiones
 num_ciudades = 3
 num_semanas = 3
