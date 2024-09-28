@@ -7,7 +7,7 @@ informacion_personal = {
 }
 
 # Acceder y modificar el valor asociado a "ciudad"
-informacion_personal["ciudad"] = "Barcelona"
+informacion_personal["ciudad"] = "Arenillas"
 
 # Agregar una nueva clave-valor "profesion"
 informacion_personal["profesion"] = "Desarrollador de Software"
