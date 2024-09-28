@@ -1,7 +1,7 @@
 # Crear el diccionario 'informacion_personal'
 informacion_personal = {
     "nombre": "Luis Cuenca",
-    "edad": 35,
+    "edad": 34,
     "ciudad": "Arenillas",
     "profesion": "Ingeniero"
 }
